@@ -5,7 +5,7 @@ import Helmet from "react-helmet";
 import { graphql, Link } from "gatsby";
 import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
-import StartList from "../components/StartList";
+// import StartList from "../components/StartList";
 import "react-tabs/style/react-tabs.css";
 
 export const StartPageTemplate = ({
@@ -66,7 +66,7 @@ const StartPage = ({ data }) => {
                 <span className="ml5Grid__sidebarTitle">Getting Started</span>
               </div>
             </div>
-            <StartList />
+            {/* <StartList /> */}
           </section>
           <StartPageTemplate
             content={post.html}
